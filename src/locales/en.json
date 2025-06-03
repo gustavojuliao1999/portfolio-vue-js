@@ -1,0 +1,78 @@
+{
+  "nav": {
+    "services": "Services",
+    "about": "About Me",
+    "skills": "Skills",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Hello, I'm",
+    "name": "Gustavo Julião",
+    "description": "Software developer with extensive experience in Python, Node, and PHP, creating robust solutions for automation, data analysis, web development, and decentralized applications. Focused on delivering projects that exceed expectations, using best practices and modern technologies.",
+    "hireMe": "Hire Me",
+    "downloadCV": "Download CV",
+    "profileAlt": "Gustavo Julião's profile picture"
+  },
+  "services": {
+    "title": "My Services",
+    "webDevelopment": "WEB DEVELOPMENT",
+    "webDevelopmentDesc": "Development of modern and responsive web applications. Creation of RESTful APIs and integration with databases. Specialized in technologies like Django, Vue.js, Laravel, Python, Node.js, Flutter, WEB3.0",
+    "mobileDevelopment": "MOBILE DEVELOPMENT",
+    "mobileDevelopmentDesc": "Experience in the mobile application development cycle with Flutter, from conception to publication.",
+    "technicalSkills": "TECHNICAL SKILLS",
+    "technicalSkillsDesc": "Skills in AWS, Google Cloud, and Azure Servers. Using Linux, Docker, and Kubernetes for container orchestration. And integration with AI, TELEGRAM, WHATSAPP, DISCORD APIs.",
+    "automationTools": "Automation Tools",
+    "automationToolsDesc": "Solid knowledge in web interaction automation, DOM manipulation, and cross-browser test execution with Playwright and Selenium libraries."
+  },
+  "skillsSection": {
+    "my": "My",
+    "highlightedSkills": "Skills",
+    "python": "Python",
+    "flutter": "Flutter",
+    "vuejs": "Vue.js",
+    "more": "More",
+    "highlightedAbout": "About",
+    "me": "Me",
+    "aboutMeDesc": "Developer with programming experience, focused on delivering efficient and well-structured solutions. Experience in projects with modern technologies, with emphasis on front-end (Vue, Flutter) and back-end (Python/Django). Proactive, with an analytical profile and committed to quality and deadlines. Always seeking to learn and apply good development practices.",
+    "yearsExperience": "Years of Experience",
+    "satisfiedClients": "Satisfied Clients"
+  },
+  "projectsSection": {
+    "titlePart1": "My Latest",
+    "titlePart2Orange": "Projects",
+    "filterWeb": "Web Development",
+    "filterMobile": "Mobile App",
+    "project1Title": "Contract Generation System for Providers",
+    "project1Desc": "Vue.js platform that integrates with the Provider, facilitating contract generation",
+    "project1Category": "Web Development",
+    "project1Alt": "Contract System Project",
+    "project2Title": "Application for Internet Providers",
+    "project2Desc": "Application for bill payments, support, WIFI configuration",
+    "project2Category": "Mobile App",
+    "project2Alt": "Provider App Project",
+    "project3Title": "Computer Vision Software.",
+    "project3Desc": "Computer Vision for Eye Temperature Detection",
+    "project3Category": "AI",
+    "project3Alt": "Computer Vision Project"
+  },
+  "contactSection": {
+    "title": "Let's Talk",
+    "location": "Location",
+    "locationDetail": "Caruaru, Brazil",
+    "email": "Email",
+    "emailDetail": "gustavojuliao1999@gmail.com",
+    "phone": "Phone",
+    "phoneDetail": "+55 (81) 99233-8229",
+    "formName": "Name",
+    "formNamePlaceholder": "Your name",
+    "formEmail": "Email",
+    "formEmailPlaceholder": "Your email",
+    "formMessage": "Message",
+    "formMessagePlaceholder": "Your message",
+    "sendMessage": "Send Message"
+  },
+  "footer": {
+    "rightsReserved": "All rights reserved."
+  }
+}

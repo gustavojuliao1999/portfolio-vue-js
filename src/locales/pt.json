@@ -1,0 +1,78 @@
+{
+  "nav": {
+    "services": "Serviços",
+    "about": "Sobre Mim",
+    "skills": "Habilidades",
+    "projects": "Projetos",
+    "contact": "Contato"
+  },
+  "hero": {
+    "greeting": "Olá, sou",
+    "name": "Gustavo Julião",
+    "description": "Desenvolvedor de software com vasta experiência em Python,Node e PHP, criando soluções robustas para automação, análise de dados, desenvolvimento web, e aplicações descentralizadas. Focado em entregar projetos que superam as expectativas, utilizando as melhores práticas e tecnologias modernas.",
+    "hireMe": "Contrate-me",
+    "downloadCV": "Baixar currículo",
+    "profileAlt": "Foto de perfil de Gustavo Julião"
+  },
+  "services": {
+    "title": "Meus Serviços",
+    "webDevelopment": "DESENVOLVIMENTO WEB",
+    "webDevelopmentDesc": "Desenvolvimento de aplicações web modernas e responsivas. Criação de APIs RESTful e integração com bancos de dados. Especializado em tecnologias como Django, Vue.js, Lavarel, Python, Node.js,Flutter, WEB3.0",
+    "mobileDevelopment": "DESENVOLVIMENTO MOBILE",
+    "mobileDevelopmentDesc": "Experiência no ciclo de desenvolvimento de aplicações móveis com Flutter, desde a concepção até a publicação.",
+    "technicalSkills": "HABILIDADES TÉCNICAS",
+    "technicalSkillsDesc": "Habilidades em Servidores AWS, Google Cloud e Azure. Com uso de Linux, Docker e Kubernetes para orquestração de containers. E integração com APIS de AI, TELEGRAM, WHATSAPP, DISCORD.",
+    "automationTools": "Ferramentas de Automação",
+    "automationToolsDesc": "Sólidos conhecimentos em automação de interações web, manipulação de DOM e execução de testes cross-browser com as bibliotecas Playwright e Selenium."
+  },
+  "skillsSection": {
+    "my": "Minhas",
+    "highlightedSkills": "Habilidades",
+    "python": "Python",
+    "flutter": "Flutter",
+    "vuejs": "Vue.js",
+    "more": "Mais",
+    "highlightedAbout": "Sobre",
+    "me": "Mim",
+    "aboutMeDesc": "Desenvolvedor com experiência em programação, focado em entregar soluções eficientes e bem estruturadas. Atuação em projetos com tecnologias modernas, com ênfase em front-end (Vue,Flutter) e back-end (Python/Django). Proativo, com perfil analítico e comprometido com qualidade e prazos. Sempre buscando aprender e aplicar boas práticas de desenvolvimento.",
+    "yearsExperience": "Anos de Experiência",
+    "satisfiedClients": "Clientes Satisfeitos"
+  },
+  "projectsSection": {
+    "titlePart1": "Meus Últimos",
+    "titlePart2Orange": "Projetos",
+    "filterWeb": "Desenvolvimento Web",
+    "filterMobile": "App Mobile",
+    "project1Title": "Sistema para Geração de Contratos para Provedores",
+    "project1Desc": "Plataforma em Vue.js que se integra com o Provedor Facilitando Geração de Contratos",
+    "project1Category": "Desenvolvimento Web",
+    "project1Alt": "Projeto Sistema de Contratos",
+    "project2Title": "Aplicativo para Provedores de Internet",
+    "project2Desc": "Aplicativo para Pagamentos de Contas, Suporte, Configuração de WIFI",
+    "project2Category": "App Mobile",
+    "project2Alt": "Projeto Aplicativo Provedores",
+    "project3Title": "Software Visão Computacional.",
+    "project3Desc": "Visão Computacional de Detecção de Temperatura dos olhos",
+    "project3Category": "IA",
+    "project3Alt": "Projeto Visão Computacional"
+  },
+  "contactSection": {
+    "title": "Vamos Conversar",
+    "location": "Localização",
+    "locationDetail": "Caruaru, Brasil",
+    "email": "Email",
+    "emailDetail": "gustavojuliao1999@gmail.com",
+    "phone": "Telefone",
+    "phoneDetail": "+55 (81) 99233-8229",
+    "formName": "Nome",
+    "formNamePlaceholder": "Seu nome",
+    "formEmail": "Email",
+    "formEmailPlaceholder": "Seu email",
+    "formMessage": "Mensagem",
+    "formMessagePlaceholder": "Sua mensagem",
+    "sendMessage": "Enviar Mensagem"
+  },
+  "footer": {
+    "rightsReserved": "Todos os direitos reservados."
+  }
+}

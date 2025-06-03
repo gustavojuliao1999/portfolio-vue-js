@@ -2,7 +2,8 @@
   <div class="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-purple-900">
     <header class="px-6 py-4 lg:px-8 sticky top-0 z-50 bg-slate-900/80 backdrop-blur-sm">
       <nav class="flex items-center justify-between">
-        <div class="text-white text-xl font-bold"></div> <div class="hidden md:flex items-center space-x-8">
+        <div class="text-white text-xl font-bold"></div>
+        <div class="hidden md:flex items-center space-x-8">
           <a href="#services" class="text-white hover:text-orange-400 transition-colors">{{ $t('nav.services') }}</a>
           <a href="#about" class="text-white hover:text-orange-400 transition-colors">{{ $t('nav.about') }}</a>
           <a href="#skills" class="text-white hover:text-orange-400 transition-colors">{{ $t('nav.skills') }}</a>
@@ -10,9 +11,13 @@
           <a href="#contact" class="text-white hover:text-orange-400 transition-colors">{{ $t('nav.contact') }}</a>
         </div>
         <div class="flex items-center space-x-2 ml-auto md:ml-4">
-          <button @click="changeLanguage('pt')" :class="{'text-orange-400 font-semibold': locale === 'pt', 'text-white': locale !== 'pt'}" class="hover:text-orange-400 transition-colors text-sm px-2 py-1">PT</button>
+          <button @click="changeLanguage('pt')"
+            :class="{ 'text-orange-400 font-semibold': locale === 'pt', 'text-white': locale !== 'pt' }"
+            class="hover:text-orange-400 transition-colors text-sm px-2 py-1">PT</button>
           <span class="text-slate-500">|</span>
-          <button @click="changeLanguage('en')" :class="{'text-orange-400 font-semibold': locale === 'en', 'text-white': locale !== 'en'}" class="hover:text-orange-400 transition-colors text-sm px-2 py-1">EN</button>
+          <button @click="changeLanguage('en')"
+            :class="{ 'text-orange-400 font-semibold': locale === 'en', 'text-white': locale !== 'en' }"
+            class="hover:text-orange-400 transition-colors text-sm px-2 py-1">EN</button>
         </div>
         <button class="md:hidden text-white ml-4">
           <Menu class="w-6 h-6" />
@@ -86,7 +91,7 @@
             </div>
             <h3 class="text-xl font-bold text-orange-400 mb-4">{{ $t('services.technicalSkills') }}</h3>
             <p class="text-gray-300 leading-relaxed">
-             {{ $t('services.technicalSkillsDesc') }}
+              {{ $t('services.technicalSkillsDesc') }}
             </p>
           </div>
 
@@ -108,7 +113,8 @@
       <div id="skills" class="max-w-7xl mx-auto">
         <div class="grid lg:grid-cols-2 gap-16">
           <div>
-            <h2 class="text-3xl lg:text-4xl font-bold text-white mb-12">{{ $t('skillsSection.my') }} <span class="text-orange-400">{{ $t('skillsSection.highlightedSkills') }}</span></h2>
+            <h2 class="text-3xl lg:text-4xl font-bold text-white mb-12">{{ $t('skillsSection.my') }} <span
+                class="text-orange-400">{{ $t('skillsSection.highlightedSkills') }}</span></h2>
             <div class="space-y-6 max-w-3xl">
               <div>
                 <div class="flex justify-between mb-2">
@@ -146,7 +152,9 @@
           </div>
 
           <div id="about">
-            <h2 class="text-3xl lg:text-4xl font-bold text-white mb-12">{{ $t('skillsSection.more') }} <span class="text-orange-400">{{ $t('skillsSection.highlightedAbout') }}</span> {{ $t('skillsSection.me') }}</h2>
+            <h2 class="text-3xl lg:text-4xl font-bold text-white mb-12">{{ $t('skillsSection.more') }} <span
+                class="text-orange-400">{{ $t('skillsSection.highlightedAbout') }}</span> {{ $t('skillsSection.me') }}
+            </h2>
             <p class="text-gray-300 mb-8 leading-relaxed">
               {{ $t('skillsSection.aboutMeDesc') }}
             </p>
@@ -170,7 +178,8 @@
     <section id="projects" class="px-6 py-16 lg:px-8">
       <div class="max-w-7xl mx-auto">
         <div class="flex justify-between items-center mb-12">
-          <h2 class="text-3xl lg:text-4xl font-bold text-white">{{ $t('projectsSection.titlePart1') }} <span class="text-orange-400">{{ $t('projectsSection.titlePart2Orange') }}</span></h2>
+          <h2 class="text-3xl lg:text-4xl font-bold text-white">{{ $t('projectsSection.titlePart1') }} <span
+              class="text-orange-400">{{ $t('projectsSection.titlePart2Orange') }}</span></h2>
           <div class="flex gap-2">
             <button class="px-3 py-1 text-sm bg-slate-800 text-white rounded hover:bg-orange-400 transition-colors">
               {{ $t('projectsSection.filterWeb') }}
@@ -201,7 +210,8 @@
 
           <div class="bg-slate-800/50 backdrop-blur-sm border border-slate-700 rounded-xl overflow-hidden group">
             <div class="h-48 overflow-hidden">
-              <img src="/src/assets/img/photo-1512941937669-90a1b58e7e9c.jpeg?w=400&h=200&fit=crop" :alt="$t('projectsSection.project2Alt')"
+              <img src="/src/assets/img/photo-1512941937669-90a1b58e7e9c.jpeg?w=400&h=200&fit=crop"
+                :alt="$t('projectsSection.project2Alt')"
                 class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300" />
             </div>
             <div class="p-6">
@@ -226,7 +236,8 @@
               <p class="text-gray-300 mb-4">{{ $t('projectsSection.project3Desc') }}</p>
               <div class="flex justify-between items-center">
                 <span class="text-orange-400">{{ $t('projectsSection.project3Category') }}</span>
-                <a href="https://www.linkedin.com/posts/gustavojuliao_ia-python-activity-6924723278565548032-Mcmk?utm_source=share&utm_medium=member_desktop" class="text-white hover:text-orange-400 transition-colors">
+                <a href="https://www.linkedin.com/posts/gustavojuliao_ia-python-activity-6924723278565548032-Mcmk?utm_source=share&utm_medium=member_desktop"
+                  class="text-white hover:text-orange-400 transition-colors">
                   <ExternalLink class="w-5 h-5" />
                 </a>
               </div>
@@ -257,7 +268,7 @@
               </div>
               <div>
                 <h3 class="text-white font-bold text-lg mb-1">{{ $t('contactSection.email') }}</h3>
-                <p class="text-gray-300">{{ $t('contactSection.emailDetail') }}</p>
+                <p class="text-gray-300">gustavojuliao1999@gmail.com</p>
               </div>
             </div>
 
@@ -368,33 +379,38 @@ import {
   Mail,
   ExternalLink,
   MapPin,
-  Phone,
   Instagram,
-  Linkedin
+  Linkedin,
+  Phone,
 } from 'lucide-vue-next';
+import { onMounted } from 'vue';
 import { useI18n } from 'vue-i18n';
 // import { onMounted } from 'vue'; // Apenas se for carregar o idioma aqui ao invés de em main.js
 
-const { t, locale } = useI18n();
+const { locale } = useI18n();
+
+
 
 const changeLanguage = (lang) => {
   if (locale.value !== lang && (lang === 'pt' || lang === 'en')) {
     locale.value = lang;
-    localStorage.setItem('userLanguage', lang); // Salva a preferência
+    if (typeof localStorage !== 'undefined') { // Verificação para ambientes sem localStorage (ex: build SSR)
+        localStorage.setItem('userLanguage', lang);
+    }
   }
 };
 
 // Opcional: Se você configurou o idioma inicial SOMENTE em main.js, esta parte onMounted não é estritamente necessária aqui.
 // Se quiser garantir que o componente reaja a mudanças externas ou tenha um fallback local:
-// onMounted(() => {
-//   const savedLang = localStorage.getItem('userLanguage');
-//   const browserLang = navigator.language.split('-')[0];
-//   // Define o idioma inicial baseado no localStorage, depois no navegador, e por último 'pt'
-//   const initialLang = savedLang || ( (browserLang === 'pt' || browserLang === 'en') ? browserLang : 'pt');
-//   if (initialLang && (initialLang === 'pt' || initialLang === 'en')) {
-//      if (locale.value !== initialLang) { // Só muda se for diferente do que já foi setado (ex: por main.js)
-//        locale.value = initialLang;
-//      }
-//   }
-// });
+onMounted(() => {
+  const savedLang = localStorage.getItem('userLanguage');
+  const browserLang = navigator.language.split('-')[0];
+  // Define o idioma inicial baseado no localStorage, depois no navegador, e por último 'pt'
+  const initialLang = savedLang || ((browserLang === 'pt' || browserLang === 'en') ? browserLang : 'pt');
+  if (initialLang && (initialLang === 'pt' || initialLang === 'en')) {
+    if (locale.value !== initialLang) { // Só muda se for diferente do que já foi setado (ex: por main.js)
+      locale.value = initialLang;
+    }
+  }
+});
 </script>
